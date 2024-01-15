@@ -4,32 +4,35 @@
 body {
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    height: 450px;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 .main {
     background-color: hsl(216, 50%, 16%);
-    padding: 20px;
-    border-radius: 5px;
-    width: 350px;
+    padding: 1.25rem;
+    border-radius: 0.3125rem;
+    width: 21.875rem;
 }
 .main img {
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     width: 100%;
 }
 .nft-details {
-    padding-top: 18px;
+    padding-top: 1.125rem;
 }
 .main p:first-of-type {
     color: hsl(0, 0%, 100%);
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: 'Outfit', sans-serif;
 }
 .main  {
@@ -44,7 +47,7 @@ body {
 }
 .flex-item-left {
     flex: 10%;
-    padding-top: 10px;
+    padding-top: 0.625rem;
 }
 .flex-item-left img {
     border: 1px solid #fff;
@@ -52,19 +55,19 @@ body {
 }
 .flex-item-right {
     flex: 90%;
-    padding-top: 10px;
+    padding-top: 0.625rem;
 }
 .flex-item-right p {
-    padding-top: 4px;
-    margin-left: 14px;
+    padding-top: 0.25rem;
+    margin-left: 0.875rem;
 }
 .nav-bottom {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 115px;
-    font-size: 11px;
+    margin-top: 2.1875rem;
+    font-size: 0.6875rem;
     color: hsl(228, 45%, 44%);
 }
 .active a {
@@ -87,10 +90,10 @@ body {
     background-image: url('../images/icons8-eye-48.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 48px;
+    background-size: 3rem;
     background-color: hsl(178, 100%, 50%);
     width: 100%;
-    border-radius: 5px;    
+    border-radius: 0.375rem;    
     display: inline-block; 
 }
 .overlay img:hover {
